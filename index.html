@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collins Korir | Software Engineer</title>
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Navigation-->
+  <nav class="navbar">
+    <div class="logo-container">
+      <div class="logo-circle">
+         CK
+      </div>
+      <span class="logo-text">Collins Korir</span>
+
+    </div>
+    <div class="hamburger"><i class="fas fa bars"></i></div>
+  </nav>
+
+  <!--Hero Section-->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <div class="profile-pic-container">
+        <img src="collins-korir.jpg" alt="Collins Korir" class="profile-pic">
+      </div>
+      <h1>Hi, I'm Collins <br> Kipngeno Korir</h1>
+      <p>Motivated Software Engineer & Tech Enthusiast</p>
+      <a href="#about" class="btn btn-orange">Get to Know Me</a>
+    </div>
+  </header>
+
+  <!--About Section-->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <img src="collins-korir.jpg" alt="Collins Korir" class="about-img">
+      <h3>Hello! I'm Collins Korir</h3>
+      <p>I am motivated and adaptable Software Engineering graduate from The Cooperative University of Kenya, with a second class Upper Division.I have a strong foundation in programming and development with proficiency in multiple languages including Javascript , Java and C#.</p>
+    </div>
+  </section>
+
+  <!--Skills Section-->
+  <section class="section" id="skills">
+    <h2 class="section-title">Programming Languages & Skills</h2>
+    <div class="card skill-card">
+      <div class="icon-circle"><i class="fab fa-js"></i></div>
+      <h3>JavaScript</h3>
+      <p>Modern Javascript for dynamic web applications and interactive user interfaces</p>
+    </div>
+    <div class="card skill-card">
+      <div class="icon-circle"><i class="fab fa-java"></i></div>
+      <h3>Java</h3>
+      <p>Server-side scripting and web development with Java frameworks.</p>
+    </div>
+  </section>
+
+  <!--Education section-->
+  <section class="section" id="education">
+    <h2 class="section-title">Education Background</h2>
+    <div class="card">
+      <h3 class="blue-text">Bachelor of Science in Software Engineering</h3>
+      <p class="subtitle">The Cooperative University of Kenya | 2021 -2025</p>
+      <p>Developing comprehensive knowledge in programming, software architecture, and modern development practices.</p>
+      <p><strong>Key Areas of Study:</strong></p>
+      <ul>
+        <li>Software Development & Engineering</li>
+        <li>Data Structures & Algorithims</li>
+        <li>Database Systems & Management</li>
+        <li>Web Development Technologies</li>
+        <li>Software Architecture & Design Patterns</li>
+      </ul>
+      <a href="COLLINS_KIPNGENO.pdf" class="btn btn-blue"><i class="fas fa-file-download"></i>Download My CV</a>
+    </div>
+  </section>
+
+  <!--Experience Section-->
+  <section class="section" id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="card">
+      <h3 class="blue-text">Software Engineering Intern</h3>
+      <p class="subtitle">Social Health Authority | 2024</p>
+      <p><strong>Key Contributions:</strong></p>
+      <ul>
+        <li>Participated in Hands on training and project work focused on AL</li>
+        <li>Gained practical experience in programming languages</li>
+        <li>Applied SQL to manage and query data effectively within ERP environment</li>
+      </ul>
+    </div>
+  </section>
+
+  <!--Projects Section-->
+  <section class="section" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="card project-card">
+      <div class="project-header"><i class="fas fa-building"></i></div>
+      <h3 class="blue-text">Real Estate Management System with AI Chat bot</h3>
+      <p>Developed a modern real estate website integrated with AI chatbot to aggrandize customer experience</p>
+      <a href="#" class="project-link">View on Github <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="section" id="contact">
+    <h2 class="section-title"> Get In Touch</h2>
+    <div class="contact-info">
+      <h3 class="blue-text">Let's Connect!</h3>
+      <p>I'm always excited to discuss new opportunities, collaborate on interesting projects, or chat about technology and software development. Feel free to reach out!</p>
+      <div class="info-item"><i class="fas fa-envelope blue-icon"></i>
+      <div><strong>Email</strong><br>kipngenocollinskorir@gmail.com</div>
+      <div class="info-item"><i class="fas fa-phone blue-icon"></i>
+      <div><strong>Phone</strong><br>0700407660</div>
+      </div>
+      <div class="info-item"><i class="fas fa-map-marker-alt blue-icon"></i>
+      <div><strong>Location</strong><br>Nairobi, Kenya</div></div>
+      <div class="info-item"><i class="fas fa-university blue-icon"></i>
+      <div><strong>University</strong><br>The Cooperative University of Kenya</div></div>
+      </div>
+
+      <div class="card form-card">
+        <form id="contactForm">
+          <label>Full Name</label>
+          <input type="text" id="name" required placeholder="John Doe">
+
+          <label>Email Address</label>
+          <input type="email" id="email" required placeholder="john@example.com">
+
+          <label>Subject</label>
+          <input type="text" id="subject" required placeholder="Project Inquiry">
+
+          <label>Messages</label>
+          <textarea id="message" rows="5" required placeholder="Tell me more about your project or just say hello!"></textarea>
+
+          <button type="submit" class="btn btn-blue full-width">Send Message</button>
+        </form>
+        <!--div extra-->
+      </div>
+    </div>
+  </section>
+
+  <!--Floating Buttons-->
+  <a href="https://wa.me/254700407660" class="float-btn whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="#home" class="float-btn scroll-top-btn"><i class="fas fa-arrow-up"></i></a>
+
+  <script></script>
+</body>
+</html>

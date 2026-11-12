@@ -1,0 +1,307 @@
+/*Global styles*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, .logo-text{
+  font-family: 'Playfair Display',serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li{
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/*Navbar*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle{
+  width: 40px;
+  height: 40px;
+  background: #111;
+  color: #d4af37;/*Gold*/
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+
+
+}
+
+.logo-text{
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+}
+.hamburger{
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/*Hero Section*/
+.hero{
+  background: linear-gradient(rgba(98, 100, 200, 0.9), rgba(98, 100, 200, 0.9));
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.profile-pic-container{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.3);
+  overflow: hidden;
+}
+.profile-pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero h1{
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.hero p{
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/*Buttons*/
+
+.btn{
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.btn-orange{
+  background: #f39c12;
+  color: white;
+  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+  
+}
+
+.btn-blue{
+  background: #2b55f5;
+  color: white;
+}
+.full-width{
+  width: 100%;
+  margin-top: 15px;
+}
+
+/*General Sections*/
+.section{
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.section-title{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+.section-title::after{
+  content: '';
+  display:block;
+  width: 60px;
+  height: 4px;
+  background: #2b55f5;
+  margin: 10px auto 0;
+  border-radius: 2px;
+
+}
+
+/*Cards*/
+.card{
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.blue-text{
+  color: #2b55f5;
+  margin-bottom: 5px;
+
+}
+.subtitle{
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 15px;
+  
+}
+
+.about-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #2b55f5;
+  object-fit: cover;
+}
+/*Skills*/
+
+.skill-card{
+  text-align: center;
+
+}
+.icon-circle{
+  width: 70px;
+  height: 70px;
+  background: #6e73d8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0 auto 15px;
+}
+
+/*Projects*/
+.project-card{
+  padding: 0;
+  overflow: hidden;
+}
+.project-header{
+  background: linear-gradient(135deg, #6e73d8, #2b55f5);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.project-card h3, .project-card p, .project-link{
+  padding: 0 20px;
+}
+.project-card h3{
+  margin-top: 20px;
+}
+.project-card p{
+  margin-bottom: 20px;
+  color: #555;
+
+}
+.project-link{
+  display: block;
+  padding-bottom: 20px;
+  color: #2b55f5;
+  font-weight: bold;
+}
+
+/*Contact form*/
+.contact-info{
+  margin-bottom: 30px;
+}
+.info-item{
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.blue-icon{
+  color: #2b55f5;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+.form-card label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.form-card input, .form-card textarea{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+}
+.form-card input:focus, .form-card textarea:focus{
+  outline: none;
+  border-color: #2b55f5;
+}
+
+/*Flloating Buttons*/
+.float-btn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  z-index: 99;
+}
+
+.whatsapp-btn{
+  background: #25d366;
+  bottom: 20px;
+  right: 20px;
+
+}
+.scroll-top-btn{
+  background: #2b55f5;
+  bottom: 80px;
+  right: 20px;
+  display: none;
+  /*Hidden by default shown Via JS*/
+}
